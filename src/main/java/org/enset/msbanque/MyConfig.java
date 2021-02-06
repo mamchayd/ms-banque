@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MyConfig {
 
-    @Bean
+    //@Bean
     public ResourceConfig resourceConfig(){
         ResourceConfig jersyServlet =new ResourceConfig();
         jersyServlet.register(CompteRestJaxRSAPI.class);
